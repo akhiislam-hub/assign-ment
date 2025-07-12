@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'inter'sans-serif;
+  background-color: white;
+  color: black;
+}
+/*Header*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color:white;
+  box-shadow: rgba(red, green, blue, alpha);
+
+
+}
+.logo{
+  font-size: 24px;
+  font-weight: 700;
+}
