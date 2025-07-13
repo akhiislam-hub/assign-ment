@@ -1,27 +1,151 @@
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-
-body{
-  font-family: 'inter'sans-serif;
-  background-color: white;
-  color: black;
+.container{
+  width: 80%;
+  margin: 0 auto;
 }
-/*Header*/
-.header{
+header{
+  padding: 50px 0px;
+  background: url("./Assets/Hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
   display: flex;
   justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
+  font-size: 45px;
+  color:blue;
+  font-weight: bold;
+}
+.banner{
+  text-align: center;
+  padding: 100px 0px;
+}
+.banner h1{
+  margin: 20px 0;
+  font-size: 42px;
+}
+.action-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px, 0px;
   align-items: center;
-  padding: 20px 40px;
-  background-color:white;
-  box-shadow: rgba(red, green, blue, alpha);
+  
+}
+img{
+  width: 100%;
+}
+.action-image img{
+  border-radius: 24px;
+  
+
+}
+main{
+  padding: 50px 0;
+}
+.action-desc h1{
+  font-size: 35px;
+
+}
+.action-desc p{
+  margin: 15px 0px;
+}
+.users{
+  text-align: center;
+  padding: 50px 0px;
+  border-radius: 24px;
+
+background: rgba(78, 71, 255, 0.1);
 
 
 }
-.logo{
-  font-size: 24px;
-  font-weight: 700;
+.user-reviews{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.review{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.custom{
+  font-size:45px ;
+  font-weight: bold;
+  color: blue;
+}
+.star{
+  display: flex;
+  gap: 5px;
+
+}
+.star img{
+  height: 20px;
+  width: 20px;
+
+
+}
+.client-info img{
+
+  height: 40px;
+  width: 40px;
+
+}
+.client-info{
+  display: flex;
+  align-items: center ;
+  gap: 15px;
+}
+.clients{
+  display: flex ;
+  justify-content: space-between;
+  gap: 20px;
+}
+.client-reviews h1{
+  text-align: center;
+  font-size: 45px;
+  margin: 20px 0px;
+  
+
+}
+.client-reviews{
+  padding: 50px 0;
+  
+}
+.contact{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.contact-title h1{
+  font-size: 80px;
+}
+label{
+  font-size: 20px;
+
+}
+input,textarea{
+  width: 300px;
+  padding: 10px 15px;
+  
+}
+button{
+  transition: .2s all;
+  font-size: 25px;
+  padding: 10px 15px;
+  background-color: blue;
+}
+button:hover{
+  background-color: yellow;
 }
